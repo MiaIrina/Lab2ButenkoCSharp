@@ -42,7 +42,7 @@ namespace ButenkoLab02.ViewModels
 		public string Surname => "Surname:" + _user.Surname;
 		public string DateOfBirth => "Birthday: " + _user.BirthDay.ToShortDateString();
 		public string Email => "Email:" + _user.Email;
-		public string isAdult => _user.isAdult ? "You are adult" : "You are not adult";
+		public string IsAdult => _user.IsAdult ? "You are adult" : "You are not adult";
 		public string Age => "Age:" + _user.Age.ToString();
 		public string SunSign => "Your sun sign:" + _user.WestHoroscope;
 		public string ChineseSign => "Your chinese sign:" + _user.ChineseHoroscope;
