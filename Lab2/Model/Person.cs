@@ -99,7 +99,10 @@ namespace ButenkoLab02.Model
 		{
 			get
 			{
-				return (_birthDay == DateTime.Today);
+				
+			
+				return (_birthDay.Day==DateTime.Now.Day&& _birthDay.Month == DateTime.Now.Month);
+			
 			}
 		}
 
