@@ -26,7 +26,7 @@
         <TextBlock Name="birthDayOfUser" HorizontalAlignment="Center" FontSize="20" Grid.Row="3" Text="{Binding DateOfBirth,Mode=OneWay,UpdateSourceTrigger=PropertyChanged}"></TextBlock>
         <TextBlock Name="emailOfUser" HorizontalAlignment="Center" FontSize="20" Grid.Row="4" Text="{Binding Email,Mode=OneWay,UpdateSourceTrigger=PropertyChanged}"></TextBlock>
         <TextBlock Name="agefUser" HorizontalAlignment="Center" FontSize="20" Grid.Row="5" Text="{Binding Age,Mode=OneWay,UpdateSourceTrigger=PropertyChanged}"></TextBlock>
-        <TextBlock Name="isAdultUser" HorizontalAlignment="Center" FontSize="20" Grid.Row="6" Text="{Binding isAdult,Mode=OneWay,UpdateSourceTrigger=PropertyChanged}"></TextBlock>
+        <TextBlock Name="isAdultUser" HorizontalAlignment="Center" FontSize="20" Grid.Row="6" Text="{Binding IsAdult,Mode=OneWay,UpdateSourceTrigger=PropertyChanged}"></TextBlock>
         <TextBlock Name="SunSignOfUser" HorizontalAlignment="Center" FontSize="20" Grid.Row="7" Text="{Binding SunSign,Mode=OneWay,UpdateSourceTrigger=PropertyChanged}"></TextBlock>
         <TextBlock Name="chineseSignOfUser" HorizontalAlignment="Center" FontSize="20" Grid.Row="8" Text="{Binding ChineseSign,Mode=OneWay,UpdateSourceTrigger=PropertyChanged}"></TextBlock>
         <Button Content="back" Grid.Row="9" Width="50" Margin="20" Command="{Binding ReturnCommand}"></Button>
