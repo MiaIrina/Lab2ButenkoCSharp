@@ -88,7 +88,7 @@ namespace ButenkoLab02.Model
 
 			}
 		}
-		public bool isAdult
+		public bool IsAdult
 		{
 			get
 			{
